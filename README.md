@@ -1,4 +1,4 @@
-   ##Restaurant Management API Backend
+   𝐓𝐡𝐞 𝐑𝐞𝐬𝐭𝐚𝐮𝐫𝐚𝐧𝐭 𝐌𝐚𝐧𝐚𝐠𝐞𝐦𝐞𝐧𝐭 𝐀𝐏𝐈 𝐁𝐚𝐜𝐤𝐞𝐧𝐝
 
   - This backend provides a robust and scalable API for managing restaurant operations such as menu, orders, reservations, inventory, and reporting.
    
