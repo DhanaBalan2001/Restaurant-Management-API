@@ -1,37 +1,39 @@
 ##Restaurant Management API Backend
 
-   This backend provides a robust and scalable API for managing restaurant operations such as menu, orders, reservations, inventory, and reporting. It is built using Node.js, Express.js, and MongoDB for efficient and dynamic functionality.
+   This backend provides a robust and scalable API for managing restaurant operations such as menu, orders, reservations, inventory, and reporting. It is built using Node.js, Express.js, and MongoDB for 
+   
+efficient and dynamic functionality.
 
  1.Features :
 
-   a)Core Features :
+   *  Core Features :
 
-   Menu Management: Add, update, delete, and retrieve menu items, including categories and pricing.
+         Menu Management : Add, update, delete, and retrieve menu items, including categories and pricing.
 
-   Order Management: Create, update, and manage orders with status tracking (e.g., pending, preparing, completed).
+         Order Management : Create, update, and manage orders with status tracking (e.g., pending, preparing, completed).
 
-   Reservation Management: Allow customers to book tables with time slots and details.
+         Reservation Management : Allow customers to book tables with time slots and details.
 
-   Inventory Management: Monitor ingredient stock levels and update them dynamically.
+         Inventory Management : Monitor ingredient stock levels and update them dynamically.
 
-   User Authentication: Role-based access for admin and staff.
+         User Authentication : Role-based access for admin and staff.
 
-   Reports and Analytics: Generate sales reports and analyze data for business insights.
+         Reports and Analytics : Generate sales reports and analyze data for business insights.
 
 
-   b)Advanced Features :
+   *  Advanced Features :
 
-   Staff Management: Add and manage employees, assigning roles and permissions.
+         Staff Management : Add and manage employees, assigning roles and permissions.
 
-   Real-Time Notifications: Notify kitchen staff for new orders or status changes.
+         Real-Time Notifications : Notify kitchen staff for new orders or status changes.
 
-   Table Management: Provide real-time updates on table availability and occupancy.
+         Table Management : Provide real-time updates on table availability and occupancy.
 
-   Feedback System: Allow customers to provide feedback on menu items and services.
+         Feedback System : Allow customers to provide feedback on menu items and services.
 
-   Multi-Language Support: Offer menu translations for customers in multiple languages.
+         Multi-Language Support : Offer menu translations for customers in multiple languages.
 
-   API Documentation: Automatically generated documentation using Swagger for easy usage.
+         API Documentation : Automatically generated documentation using Swagger for easy usage.
 
 
 2.Prerequisites :
@@ -44,43 +46,43 @@
 
 3.API Endpoints :
 
-   a)Menu Management :  
+   * Menu Management :  
 
-   Fetch all menu items: GET /api/menu
+       Fetch all menu items: GET /api/menu
 
-   Add a menu item: POST /api/menu
+       Add a menu item: POST /api/menu
 
-   Update a menu item: PUT /api/menu/:id
+       Update a menu item: PUT /api/menu/:id
 
-   Delete a menu item: DELETE /api/menu/:id
+       Delete a menu item: DELETE /api/menu/:id
 
-   b)Order Management :
+   * Order Management :
 
-   Fetch all orders: GET /api/orders
+       Fetch all orders: GET /api/orders
 
-   Place a new order: POST /api/orders
+       Place a new order: POST /api/orders
 
-   Update order status: PUT /api/orders/:id
+       Update order status: PUT /api/orders/:id
 
-   Cancel an order: DELETE /api/orders/:id
+       Cancel an order: DELETE /api/orders/:id
 
-   c)Reservation Management
+   * Reservation Management :
 
-   Fetch all reservations: GET /api/reservations
+       Fetch all reservations: GET /api/reservations
 
-   Make a new reservation: POST /api/reservations
+       Make a new reservation: POST /api/reservations
 
-   Cancel a reservation: DELETE /api/reservations/:id
+       Cancel a reservation: DELETE /api/reservations/:id
 
-   d)Inventory Management
+   * Inventory Management :
 
-   Fetch inventory items: GET /api/inventory
+       Fetch inventory items: GET /api/inventory
 
-   Add inventory items: POST /api/inventory
+       Add inventory items: POST /api/inventory
 
-   stock levels: PUT /api/inventory/:id
+       stock levels: PUT /api/inventory/:id
 
-   Delete inventory items: DELETE /api/inventory/:id
+       Delete inventory items: DELETE /api/inventory/:id
 
 4. Key Technologies :
 
@@ -121,4 +123,4 @@
 
 7. License :
 
-   This project is licensed under the MIT License.
+    * This project is licensed under the MIT License.
