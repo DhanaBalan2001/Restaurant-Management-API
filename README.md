@@ -1,121 +1,124 @@
-Restaurant Management API Backend
+##Restaurant Management API Backend
 
-This backend provides a robust and scalable API for managing restaurant operations such as menu, orders, reservations, inventory, and reporting. It is built using Node.js, Express.js, and MongoDB for efficient and dynamic functionality.
+   This backend provides a robust and scalable API for managing restaurant operations such as menu, orders, reservations, inventory, and reporting. It is built using Node.js, Express.js, and MongoDB for efficient and dynamic functionality.
 
-Features
+ 1.Features :
 
-#Core Features
+   a)Core Features :
 
-Menu Management: Add, update, delete, and retrieve menu items, including categories and pricing.
+   Menu Management: Add, update, delete, and retrieve menu items, including categories and pricing.
 
-Order Management: Create, update, and manage orders with status tracking (e.g., pending, preparing, completed).
+   Order Management: Create, update, and manage orders with status tracking (e.g., pending, preparing, completed).
 
-Reservation Management: Allow customers to book tables with time slots and details.
+   Reservation Management: Allow customers to book tables with time slots and details.
 
-Inventory Management: Monitor ingredient stock levels and update them dynamically.
+   Inventory Management: Monitor ingredient stock levels and update them dynamically.
 
-User Authentication: Role-based access for admin and staff.
+   User Authentication: Role-based access for admin and staff.
 
-Reports and Analytics: Generate sales reports and analyze data for business insights.
+   Reports and Analytics: Generate sales reports and analyze data for business insights.
 
-#Advanced Features
 
-Staff Management: Add and manage employees, assigning roles and permissions.
+   b)Advanced Features :
 
-Real-Time Notifications: Notify kitchen staff for new orders or status changes.
+   Staff Management: Add and manage employees, assigning roles and permissions.
 
-Table Management: Provide real-time updates on table availability and occupancy.
+   Real-Time Notifications: Notify kitchen staff for new orders or status changes.
 
-Feedback System: Allow customers to provide feedback on menu items and services.
+   Table Management: Provide real-time updates on table availability and occupancy.
 
-Multi-Language Support: Offer menu translations for customers in multiple languages.
+   Feedback System: Allow customers to provide feedback on menu items and services.
 
-API Documentation: Automatically generated documentation using Swagger for easy usage.
+   Multi-Language Support: Offer menu translations for customers in multiple languages.
 
-#Prerequisites
+   API Documentation: Automatically generated documentation using Swagger for easy usage.
 
-Make sure you have the following installed on your system:
 
-Node.js (v16+ recommended)
+2.Prerequisites :
 
-MongoDB (Local installation or a cloud service like MongoDB Atlas)
+   Make sure you have the following installed on your system:
 
-API Endpoints
+   *Node.js (v16+ recommended)
 
-#Menu Management
+   *MongoDB (Local installation or a cloud service like MongoDB Atlas)
 
-Fetch all menu items: GET /api/menu
+3.API Endpoints :
 
-Add a menu item: POST /api/menu
+   a)Menu Management :  
 
-Update a menu item: PUT /api/menu/:id
+   Fetch all menu items: GET /api/menu
 
-Delete a menu item: DELETE /api/menu/:id
+   Add a menu item: POST /api/menu
 
-#Order Management
+   Update a menu item: PUT /api/menu/:id
 
-Fetch all orders: GET /api/orders
+   Delete a menu item: DELETE /api/menu/:id
 
-Place a new order: POST /api/orders
+   b)Order Management :
 
-Update order status: PUT /api/orders/:id
+   Fetch all orders: GET /api/orders
 
-Cancel an order: DELETE /api/orders/:id
+   Place a new order: POST /api/orders
 
-#Reservation Management
+   Update order status: PUT /api/orders/:id
 
-Fetch all reservations: GET /api/reservations
+   Cancel an order: DELETE /api/orders/:id
 
-Make a new reservation: POST /api/reservations
+   c)Reservation Management
 
-Cancel a reservation: DELETE /api/reservations/:id
+   Fetch all reservations: GET /api/reservations
 
-#Inventory Management
+   Make a new reservation: POST /api/reservations
 
-Fetch inventory items: GET /api/inventory
+   Cancel a reservation: DELETE /api/reservations/:id
 
-Add inventory items: POST /api/inventory
+   d)Inventory Management
 
-Update stock levels: PUT /api/inventory/:id
+   Fetch inventory items: GET /api/inventory
 
-Delete inventory items: DELETE /api/inventory/:id
+   Add inventory items: POST /api/inventory
 
-#Key Technologies
+   stock levels: PUT /api/inventory/:id
 
-Node.js: Backend runtime.
+   Delete inventory items: DELETE /api/inventory/:id
 
-Express.js: REST API framework.
+4. Key Technologies :
 
-MongoDB: NoSQL database for storage.
+   * Node.js: Backend runtime.
 
-Mongoose: Object Data Modeling (ODM) for MongoDB.
+   * Express.js: REST API framework.
 
-JWT: Secure user authentication.
+   * MongoDB: NoSQL database for storage.
 
-#Future Enhancements
+   * Mongoose: Object Data Modeling (ODM) for MongoDB.
 
-Add role-based access control (RBAC) for more precise permissions.
+   * JWT: Secure user authentication.
 
-Integrate payment processing for orders.
+5. Future Enhancements :
 
-Support dynamic pricing with time-based or demand-based rules.
+     Add role-based access control (RBAC) for more precise permissions.
 
-Add mobile app support to extend API use.
+     Integrate payment processing for orders.
 
-Implement real-time features with WebSockets for live order updates.
+     Support dynamic pricing with time-based or demand-based rules.
 
-#Contributing
+     Add mobile app support to extend API use.
 
-Fork the repository.
+     Implement real-time features with WebSockets for live order updates.
 
-Create a new branch for your feature:
+6. Contributing :
 
-git checkout -b feature-name
-Push to the branch:
+    * Fork the repository.
 
-git push origin feature-name
+    * Create a new branch for your feature:
 
-Create a pull request with detailed changes.
+      git checkout -b feature-name
+      Push to the branch:
 
-License
-This project is licensed under the MIT License.
+      git push origin feature-name
+
+    *  Create a pull request with detailed changes.
+
+7. License :
+
+   This project is licensed under the MIT License.
