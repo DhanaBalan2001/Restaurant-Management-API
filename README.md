@@ -6,7 +6,7 @@
    
 
 
- 1.Features :
+ # Features :
 
    *  Core Features :
 
@@ -38,7 +38,7 @@
        -  API Documentation : Automatically generated documentation using Swagger for easy usage.
 
 
-2.Prerequisites :
+# Prerequisites :
 
    Make sure you have the following installed on your system:
 
@@ -46,7 +46,7 @@
 
    *MongoDB (Local installation or a cloud service like MongoDB Atlas)
 
-3.API Endpoints :
+# API Endpoints :
 
    * Menu Management :  
 
@@ -86,7 +86,7 @@
 
        - Delete inventory items: DELETE /api/inventory/:id
 
-4. Key Technologies :
+# Key Technologies :
 
    * Node.js: Backend runtime.
 
@@ -98,7 +98,7 @@
 
    * JWT: Secure user authentication.
 
-5. Future Enhancements :
+# Future Enhancements :
 
    * Add role-based access control (RBAC) for more precise permissions.
 
@@ -110,22 +110,22 @@
 
    * Implement real-time features with WebSockets for live order updates.
 
-6. Contributing :
+# Contributing :
 
-    * Fork the repository.
+   * Fork the repository.
 
-    * Create a new branch for your feature:
+   * Create a new branch for your feature:
 
       git checkout -b feature-name
       Push to the branch:
 
       git push origin feature-name
 
-    *  Create a pull request with detailed changes.
+   *  Create a pull request with detailed changes.
 
-7. License :
+# License :
 
-    * This project is licensed under the MIT License.
+   * This project is licensed under the MIT License.
   
 
 
