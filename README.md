@@ -1,6 +1,6 @@
 # RESTAURANT MANAGEMENT API - BACKEND
 
-   - This backend provides a robust and scalable API for managing restaurant operations such as menu, orders, reservations, inventory, and reporting.
+   - This backend provides a robust and scalable API for managing restaurant operations such as menu, orders, reservations and reporting.
    
    - It is built using Node.js, Express.js, and MongoDB for efficient and dynamic functionality.
    
